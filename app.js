@@ -181,7 +181,7 @@ function update() {
     levelIndicator.setColor("red")
     bird.body.velocity.x = 110;
   }
-    if (bird.x >= 10000) {
+    if (bird.x >= 15000) {
     levelIndicator.text = "Level: Insane";
     levelIndicator.setColor("purple")
     bird.body.velocity.x = 120;

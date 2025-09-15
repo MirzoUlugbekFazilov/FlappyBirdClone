@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"
+    ></script>
+    <script src="app.js"></script>
+    <title>Flappy Bird Clone</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 100vw;
+        height: 95vh;
+      }
+
+      h1 {
+        color: white;
+        font: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        lighting-color: blue;
+        font-weight: 900;
+          text-shadow:
+    0 0 20px #ff00ff, /* Outer colored glow */
+    0 0 30px #6119cd,
+    0 0 40px #ff00ff;
+
+      }
+    </style>
+  </head>
+  <body onkeydown="
+   if(event.key == 'Enter') GameStarter()">
+   <h1 >Flappy Bird</h1>
+    <div id="game"></div>
+  </body>
+</html>

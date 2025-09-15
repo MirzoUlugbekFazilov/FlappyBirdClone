@@ -26,17 +26,15 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         lighting-color: blue;
         font-weight: 900;
-          text-shadow:
+        text-shadow:
     0 0 20px #ff00ff, /* Outer colored glow */
     0 0 30px #6119cd,
     0 0 40px #ff00ff;
-
       }
     </style>
   </head>
-  <body onkeydown="
-   if(event.key == 'Enter') GameStarter()">
+  <body onclick="GameStarter()" onkeydown="if(event.key == 'Enter') GameStarter();">
    <h1 >Flappy Bird</h1>
-    <div id="game"></div>
+    <div  id="game"></div>
   </body>
 </html>
